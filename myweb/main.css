@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C3CBD9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form button styling */
+form {
+    margin: 20px 0;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #222a36;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background-color: #7587a7;
+}
+
+/* Image styling */
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}

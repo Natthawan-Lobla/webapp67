@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C3CBD9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 32px;
+    color: #222a36;
+    margin-bottom: 20px;
+}
+
+/* Styling for the PHP welcome message */
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #222a36;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 2rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #7587a7;
+}

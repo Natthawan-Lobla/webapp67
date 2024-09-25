@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C3CBD9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 36px;
+    color: #222a36;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input field styling */
+input[type="text"], 
+input[type="password"], 
+input[type="submit"], 
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Submit and reset button styling */
+input[type="submit"], 
+input[type="reset"] {
+    font-size: 16px;
+    color: white;
+    background-color: #222a36;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #7587a7;
+}
+
+/* Reset button specific styling */
+input[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+input[type="reset"]:hover {
+    background-color: #bbb;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}

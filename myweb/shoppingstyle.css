@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C3CBD9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 32px;
+    color: #222a36;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    max-width: 900px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling */
+th, td {
+    border: 2px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Header styling */
+th {
+    background-color: #222a36;
+    color: white;
+    font-size: 18px;
+}
+
+/* Table data styling */
+td {
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

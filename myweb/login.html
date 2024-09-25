@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Login Website</h1>
+    
+    <form action="receivelogin.php" method="post" target="_blank">
+        <label for="user">Enter username:</label>
+        <input type="text" id="user" name="user" size="25"><br><br>
+
+        <label for="password">Enter password:</label>
+        <input type="password" id="password" name="pass" size="25"><br><br>
+
+        <p>เมื่อกรอกข้อมูลครบแล้ว กรุณากดปุ่มเพื่อเข้าสู่ระบบ</p>
+
+        <input type="submit" id="send" name="send" value="เข้าสู่ระบบ">
+        <input type="reset" id="cancel" name="cancel" value="ยกเลิก">
+    </form>
+
+    <br>
+
+    <form action="member.html" method="post" target="_blank">
+        <input type="submit" id="submit" name="register" value="สมัครสมาชิก" class="p1">
+    </form>
+</body>
+</html>
